@@ -22,6 +22,3 @@ ALGORITHM. File : main.cpp
    2. Jika queue tidak kosong, baca NIK yang dicari.
    3. Cari data KTP dengan NIK yang dicari. Jika ditemukan, tampilkan data KTP yang ditemukan. Jika tidak ditemukan, tampilkan pesan "Data KTP tidak ditemukan".
 8. Ulangi langkah-langkah di atas sampai pilihan adalah keluar.
-
-\*Tambahan
-std::getline(cin, ktpBaru.nama); -> untuk Menambahkan spasi pada inputan
