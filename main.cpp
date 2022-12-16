@@ -41,13 +41,13 @@ int main() {
         cout << "Masukkan NIK: ";
         cin >> ktpBaru.nik;
         cout << "Masukkan nama: ";
-        cin >> ktpBaru.nama;
+        getline(cin, ktpBaru.nama);
         cout << "Masukkan tanggal lahir (HH-BB-TTTT): ";
         cin >> ktpBaru.tanggalLahir;
         cout << "Masukkan status perkawinan: ";
-        cin >> ktpBaru.statusPerkawinan;
+        getline(cin, ktpBaru.statusPerkawinan);
         cout << "Masukkan pekerjaan: ";
-        cin >> ktpBaru.pekerjaan;
+        getline(cin, ktpBaru.pekerjaan);
 
         if (dataKTP.size() <= 5) {
             // Tambah data KTP ke queue
